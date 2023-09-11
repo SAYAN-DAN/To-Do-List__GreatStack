@@ -51,6 +51,7 @@ input {
     background: transparent;
     /* background-color: transparent; */
     padding: 10px;
+    margin: 10px;
 }
 
 button {
@@ -71,10 +72,14 @@ ul li {
     user-select: none;
     cursor:pointer;
     position: relative;
+    background-color: rgb(228, 235, 23);
+    margin: 10px;
+    padding: 20px;
+    
 }
 
 ul li::before {
-    content: '';
+    content: "";
     position: absolute;
     height: 28px;
     width: 28px;
@@ -85,11 +90,14 @@ ul li::before {
     top: 12px;
     left: 8px;
 }
-
+/* 
 ul li.ckecked {
     color: #555;
     text-decoration-line: line-through;
-}
+    border: red;
+    margin: 20px;
+    
+} */
 
 
 ul li.ckecked::before {
