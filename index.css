@@ -88,7 +88,7 @@ ul li::before {
 
 ul li.ckecked {
     color: #555;
-    text-decoration: line-through;
+    text-decoration-line: line-through;
 }
 
 
